@@ -61,21 +61,18 @@ h1 {
 
 .main td > a:link {
     text-decoration: none;
-    text-weight: 700;
+    font-weight: 700;
     text-transform: uppercase;
     color: #214e34;
     padding-left: 15px;
     letter-spacing: 2px;
 }
-
 .main td > a:visited {
     color: violet;
 }
-
 .main td > a:hover {
     color: red;
 }
-
 .main td > a:active {
     color: yellow;
 }
