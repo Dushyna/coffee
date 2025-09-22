@@ -38,7 +38,7 @@ h1 {
 
 .left{
     position: absolute;
-    left: o;
+    left: 0;
     width: 50%;
 }
 .right {
@@ -51,7 +51,8 @@ h1 {
     margin: 5px;
     border-bottom: 3px solid #e4bb97;
     padding-bottom: 60px;
-    height: 230px;
+    height: 100px;
+    overflow-y: scroll;
 
 }
 
