@@ -27,22 +27,37 @@ h1 {
     font-family: "Covered By Your Grace", cursive;
     color: rgba(3, 150, 100, 0.75);
     text-align: center;
-    padding-top: 110px;
+    padding-top: 100px;
     /*margin-top: 110px;*/
 }
 
-.main > ul {
-    list-style: none;
+.main {
     padding: 0;
+    position: relative;
 }
 
-.main li {
-    margin: 100px 0;
+.left{
+    position: absolute;
+    left: 0;
+    width: 50%;
+}
+.right {
+    position: absolute;
+    right: 0;
+    width: 50%;
+}
+
+.cart {
+    margin: 5px;
     border-bottom: 3px solid #e4bb97;
     padding-bottom: 60px;
+    height: 100px;
+    overflow-y: scroll;
+
 }
 
-.main li > h2 {
+
+.main h2 {
     font-weight: 800;
     font-size: 28px;
     text-align: center;
@@ -51,7 +66,7 @@ h1 {
 
 }
 
-.main li > p {
+.main p {
     font-size: 20px;
     color: #454; /*445544*/
     text-align: justify;
@@ -60,11 +75,23 @@ h1 {
     line-height: 1.5;
 }
 
-.main li > a {
+.main a:link {
     text-decoration: none;
-    text-weight: 700;
+    font-weight: 700;
     text-transform: uppercase;
     color: #214e34;
     padding-left: 15px;
     letter-spacing: 2px;
+}
+
+.main a:visited {
+    color: violet;
+}
+
+.main a:hover {
+    color: red;
+}
+
+.main a:active {
+    color: yellow;
 }
