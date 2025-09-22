@@ -27,21 +27,38 @@ h1 {
     font-family: "Covered By Your Grace", cursive;
     color: rgba(3, 150, 100, 0.75);
     text-align: center;
-    padding-top: 110px;
+    padding-top: 100px;
     /*margin-top: 110px;*/
 }
 
-.main > table {
+.main {
     padding: 0;
+    position: relative;
 }
 
-.main td {
-    margin: 100px 0;
+.div1, .div2, .div3, .div4, .div5, .div6 {
+    margin: 5px;
     border-bottom: 3px solid #e4bb97;
     padding-bottom: 60px;
+    width: 49%;
+    position: absolute;
+    height: 230px;
+
 }
 
-.main td > h2 {
+.div4, .div5, .div6 {
+    left: 50%;
+}
+
+.div2, .div5 {
+    top: 300px;
+}
+
+.div3, .div6 {
+    top: 600px;
+}
+
+.main h2 {
     font-weight: 800;
     font-size: 28px;
     text-align: center;
@@ -50,7 +67,7 @@ h1 {
 
 }
 
-.main td > p {
+.main p {
     font-size: 20px;
     color: #454; /*445544*/
     text-align: justify;
@@ -59,7 +76,7 @@ h1 {
     line-height: 1.5;
 }
 
-.main td > a:link {
+.main a:link {
     text-decoration: none;
     font-weight: 700;
     text-transform: uppercase;
@@ -67,12 +84,15 @@ h1 {
     padding-left: 15px;
     letter-spacing: 2px;
 }
-.main td > a:visited {
+
+.main a:visited {
     color: violet;
 }
-.main td > a:hover {
+
+.main a:hover {
     color: red;
 }
-.main td > a:active {
+
+.main a:active {
     color: yellow;
 }
