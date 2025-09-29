@@ -40,21 +40,8 @@ h1 {
 p {
     text-align: justify;
 }
-
-a:link {
-    color: #214e34;
-}
-
-a:visited {
-    color: violet;
-}
-
-a:hover {
-    color: red;
-}
-
-a:active {
-    color: yellow;
+.btn {
+    color: var(--bg-color);
 }
 
 footer {
